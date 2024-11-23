@@ -1,0 +1,40 @@
+.custom-testimonial-div {
+  width: 95% !important;
+  margin: auto 10px !important;
+}
+
+.review-custom-div {
+  background-image: url(../../Assets/Images/shape/shape-3.png);
+}
+
+/* For small devices (e.g., phones in portrait mode) */
+@media (max-width: 600px) {
+  .review-slider-container{
+    margin: auto;
+    width: 90%;
+  }
+}
+
+/* For medium devices (e.g., tablets in portrait mode) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .review-slider-container{
+    margin: auto;
+    width: 90%;
+  }
+}
+
+/* For large devices (e.g., desktops and laptops) */
+@media (min-width: 1025px) {
+  .review-slider-container{
+    margin: auto;
+    width: 90%;
+  }
+}
+
+/* For extra large devices (e.g., large desktops, TVs) */
+@media (min-width: 1440px) {
+  .review-slider-container{
+    margin: auto;
+    width: 100%;
+  }
+}

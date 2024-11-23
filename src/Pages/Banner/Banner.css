@@ -1,0 +1,143 @@
+/* Home Banner Design Area */
+.banner-container-div {
+  position: relative;
+
+}
+
+.banner-container-div:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* width: 20em;
+    height: 20em; */
+  /* background: rgb(233, 134, 240, 0.6); */
+}
+
+.banner-image {
+  height: 100vh;
+  width: 100vw;
+}
+
+
+
+.banner-text p {
+  font-size: 1.5rem;
+  /* margin-top: 4rem; */
+  padding: 0;
+  margin: 0;
+  z-index: 0;
+  color: #ff5857;
+}
+
+.banner-text h1 {
+  font-size: 4.5rem;
+  /* margin-bottom: 3rem; */
+  color: #ffffff;
+}
+
+.banner-container {
+  position: relative;
+}
+
+.banner-bottom-card {
+  position: absolute;
+  bottom: -8%;
+  width: 100%;
+}
+
+.banner-botom-card-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  justify-items: center;
+  padding: 3rem 2rem;
+  color: white;
+}
+
+.banner-botom-card-info i {
+  font-size: 2.4rem;
+  margin-right: 1rem;
+}
+
+.banner-botom-card-info h6 {
+  font-size: 1rem;
+}
+
+.banner-botom-card-info p {
+  padding: 0px;
+  margin: 0px;
+  font-size: 13px;
+}
+
+.banner-botom-card-div-1 {
+  border-radius: 8px;
+}
+
+.banner-botom-card-div-2 {
+  border-radius: 8px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(38, 34, 55, 0.9),
+    rgba(38, 34, 55, 0.9),
+    rgba(38, 34, 55, 0.8),
+    rgba(38, 34, 55, 0.7),
+    rgba(38, 34, 55, 0.7)
+  );
+  pointer-events: none;
+}
+
+/* For small devices (e.g., phones in portrait mode) */
+@media (max-width: 600px) {
+  .banner-text p {
+    font-size: 0.7rem;
+  }
+
+  .banner-text h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* For medium devices (e.g., tablets in portrait mode) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .banner-text p {
+    font-size: 0.8rem;
+  }
+
+  .banner-text h1 {
+    font-size: 2rem;
+  }
+}
+
+/* For large devices (e.g., desktops and laptops) */
+@media (min-width: 1025px) {
+  .banner-text p {
+    font-size: 1rem;
+  }
+
+  .banner-text h1 {
+    font-size: 2.5rem;
+  }
+}
+
+/* For extra large devices (e.g., large desktops, TVs) */
+@media (min-width: 1440px) {
+  .banner-text p {
+    font-size: 1.5rem;
+  }
+
+  .banner-text h1 {
+    font-size: 3.5rem;
+  }
+}
